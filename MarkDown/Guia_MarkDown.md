@@ -74,13 +74,13 @@ __Result:__
 >    1. Item 3b
 
 ### Images
-> \<img src="/img/gim.jpg" alt="alt text" width="180" height="100"><br>
-> !\[Foto de Gin](/img/gim.jpg)
+> \<img src="/MarkDown/img/gim.jpg" alt="alt text" width="180" height="100"><br>
+> !\[Foto de Gin](./img/gim.jpg)
 
 __Result: *Gim*__
-> <img src="/img/gim.jpg" alt="alt text" width="180" height="100">
+> <img src="/MarkDown/img/gim.jpg" alt="alt text" width="180" height="100">
 > 
->![Foto de Gin](/img/gim.jpg)
+>![Foto de Gin](/MarkDown/img/gim.jpg)
 
 ### Links
 > http://github.com - automatic!<br>
