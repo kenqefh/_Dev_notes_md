@@ -1,5 +1,6 @@
 ## chruby
-´´´sh
+
+```shell
 # install chruby using wget (X Don't use brew for this step!!)
 wget -O chruby-0.3.9.tar.gz https://github.com/postmodern/chruby/archive/v0.3.9.tar.gz
 tar -xzvf chruby-0.3.9.tar.gz
@@ -8,10 +9,11 @@ sudo make install
 
 # exit or return back
 cd ..
-´´´
+```
 
 ## ruby-install and ruby
-´´´sh
+
+```shell
 # run this for add packages
 sudo apt-get install -y build-essential bison zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libffi-dev
 
@@ -20,24 +22,29 @@ brew install ruby-install
 
 # Add a ruby version that you want!
 ruby-install ruby 2.7.2
-´´´
+```
 
 ## Configuration
+
 Add the following to the ~/.bashrc
-´´´sh
+
+```shell
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh # For auto-switch
-´´´
+```
+
 ## Commands
-´´´sh
+
+```shell
 # List version of ruby installed
 chruby
 
 # Define a default version
 chruby ruby-1.9
-´´´
+```
 
-If you have enabled auto-switching, simply create a ´.ruby-version´ file:
-´´´sh
+If you have enabled auto-switching, simply create a `.ruby-version` file:
+
+```shell
 echo "ruby-1.9" > ~/.ruby-version
-´´´
+```

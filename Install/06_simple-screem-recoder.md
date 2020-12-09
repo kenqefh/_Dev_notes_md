@@ -1,7 +1,7 @@
 ## simple screem recorder
 
-´´´sh
+```shell
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
 sudo apt update
 sudo apt install simplescreenrecorder
-´´´
+```
