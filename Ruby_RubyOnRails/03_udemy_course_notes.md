@@ -13,14 +13,6 @@ bundle install
 rails server
 ```
 
-## If we have mistakes in run server
-
-```shell
-bundle install
-yarn install
-rails webpacker:install
-```
-
 ## agregar la gema rspec en Gemfile
 
 ```ruby
