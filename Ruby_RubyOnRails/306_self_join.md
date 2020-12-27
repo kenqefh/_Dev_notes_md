@@ -1,5 +1,9 @@
 ## Games
 
+```shell
+rails generate migration AddReferencesToGames
+```
+
 ```ruby
 class Game < ApplicationRecord
   # optional self join
