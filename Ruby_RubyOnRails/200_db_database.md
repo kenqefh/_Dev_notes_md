@@ -10,4 +10,6 @@ rails db:migrate
 
 rails db:rollback
 rails db:rollback STEP=10
+
+rails db:migrate:redo STEP=3
 ```
